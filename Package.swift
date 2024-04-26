@@ -48,37 +48,37 @@ let package = Package(
       name: "GoogleToolboxForMac",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/GoogleToolboxForMac.xcframework.zip",
-      checksum: "d4ac7a32b036e379eb6914bf18e0a8b2dc5ee2df1b47e339b4b8991b2fe69b4d"),
+      checksum: "64d9709bb1737faec045b281e76c8905670c5ae357b46df700e9032de9385d01"),
     .binaryTarget(
       name: "GoogleUtilitiesComponents",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/GoogleUtilitiesComponents.xcframework.zip",
-      checksum: "877e1236404b313fa7fb17c3c24babe963005a8e501b5c3bf6f5aa03da5a9090"),
+      checksum: "cd267f46d8e7e8b7799816a1d7e3b86e5e78d29cf8b6eda5644d7cd05cef2bb7"),
     .binaryTarget(
       name: "MLImage",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLImage.xcframework.zip",
-      checksum: "91bdd3914a5cc23d40dbe9aaf5f609f571a61ce0ba0ef645defed39d0d62f347"),
+      checksum: "32632a2c9e0eb5c1bb63f4ed5ef97fc3a80c91d53c62da829f3773ca3258ab08"),
     .binaryTarget(
       name: "MLKitBarcodeScanning",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitBarcodeScanning.xcframework.zip",
-      checksum: "66f5f3e7b3207862d7ee1c5dd39c7869b049820bcccf6ae3ccf9eb7ba8ecb7d7"),
+      checksum: "69fa7cdbc226e12487c98acb72f3b5623f79f5d2f5537d7bc3ddfce10f55795c"),
     .binaryTarget(
       name: "MLKitCommon",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitCommon.xcframework.zip",
-      checksum: "59b16a8e63d0cf6dc4132c2b3bd061ae89fd0a98792d433358dadf6934a320b0"),
+      checksum: "32513abe224661fb0cd0c65d8f2ce682c0b47ca15c62a96ebb60b461353bd19b"),
     .binaryTarget(
       name: "MLKitFaceDetection",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitFaceDetection.xcframework.zip",
-      checksum: "648361f92566f5cb26e95d111e1b4c8643f2192e03d10f66059ebb36d041317d"),
+      checksum: "2d2f69e88f109caabf186c5ccfa674b0245bcd0bde002509690ff8307b07a7da"),
     .binaryTarget(
       name: "MLKitVision",
       url:
         "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitVision.xcframework.zip",
-      checksum: "893951770b201e2d78bf14e889bc796fb6bbcda791d0692604b559658400ac38"),
+      checksum: "cb7760131388cc6a44585d6acc1e8a81c69db2e0540992c9b69cceaccf5a8c55"),
     .target(
       name: "Common",
       dependencies: [
