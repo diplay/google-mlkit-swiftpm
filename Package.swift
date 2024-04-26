@@ -45,40 +45,40 @@ let package = Package(
     //   path: "GoogleMLKit/GoogleUtilitiesComponents.xcframework"),
 
     .binaryTarget(
-      name: "MLImage",
-      url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/MLImage.xcframework.zip",
-      checksum: "41f17227837581a8091623cce710959092c6d9f5950c7d0b8fcb997b1e66f324"),
-    .binaryTarget(
-      name: "MLKitBarcodeScanning",
-      url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/MLKitBarcodeScanning.xcframework.zip",
-      checksum: "8889146e7e08d8ccb2edc5c1d6b7a5d3f9cde6919516d56b9cf410bb2914d775"),
-    .binaryTarget(
-      name: "MLKitCommon",
-      url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/MLKitCommon.xcframework.zip",
-      checksum: "3e586d0d3c6365c163be7a14fbd6d441fffcd4c695274ecab8f03fc9bfc3df9c"),
-    .binaryTarget(
-      name: "MLKitFaceDetection",
-      url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/MLKitFaceDetection.xcframework.zip",
-      checksum: "5e55fecbe31321d40112b3d07f79a775acfabb7075ae960d061f52f072f2b580"),
-    .binaryTarget(
-      name: "MLKitVision",
-      url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/MLKitVision.xcframework.zip",
-      checksum: "12c8ddb377fe0991300842c8af393a2f6ba3cd9cff60ad392a8d7e6af265aadb"),
-    .binaryTarget(
       name: "GoogleToolboxForMac",
       url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/GoogleToolboxForMac.xcframework.zip",
-      checksum: "f9740ddd8fc5ea0b5860aceec57391d13ee206741e1fe8740a5a7a70e8dac372"),
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/GoogleToolboxForMac.xcframework.zip",
+      checksum: "d4ac7a32b036e379eb6914bf18e0a8b2dc5ee2df1b47e339b4b8991b2fe69b4d"),
     .binaryTarget(
       name: "GoogleUtilitiesComponents",
       url:
-        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0/GoogleUtilitiesComponents.xcframework.zip",
-      checksum: "2971ed8237c591e06a95da630f538380119f708ca73099efce5628ae4c513a66"),
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/GoogleUtilitiesComponents.xcframework.zip",
+      checksum: "877e1236404b313fa7fb17c3c24babe963005a8e501b5c3bf6f5aa03da5a9090"),
+    .binaryTarget(
+      name: "MLImage",
+      url:
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLImage.xcframework.zip",
+      checksum: "91bdd3914a5cc23d40dbe9aaf5f609f571a61ce0ba0ef645defed39d0d62f347"),
+    .binaryTarget(
+      name: "MLKitBarcodeScanning",
+      url:
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitBarcodeScanning.xcframework.zip",
+      checksum: "66f5f3e7b3207862d7ee1c5dd39c7869b049820bcccf6ae3ccf9eb7ba8ecb7d7"),
+    .binaryTarget(
+      name: "MLKitCommon",
+      url:
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitCommon.xcframework.zip",
+      checksum: "59b16a8e63d0cf6dc4132c2b3bd061ae89fd0a98792d433358dadf6934a320b0"),
+    .binaryTarget(
+      name: "MLKitFaceDetection",
+      url:
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitFaceDetection.xcframework.zip",
+      checksum: "648361f92566f5cb26e95d111e1b4c8643f2192e03d10f66059ebb36d041317d"),
+    .binaryTarget(
+      name: "MLKitVision",
+      url:
+        "https://github.com/diplay/google-mlkit-swiftpm/releases/download/5.0.0-ios14/MLKitVision.xcframework.zip",
+      checksum: "893951770b201e2d78bf14e889bc796fb6bbcda791d0692604b559658400ac38"),
     .target(
       name: "Common",
       dependencies: [
