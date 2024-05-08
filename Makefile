@@ -2,7 +2,7 @@ PROJECT_ROOT=$(cd $(dirname $0); cd ..; pwd)
 PODS_ROOT="./Pods"
 PODS_PROJECT="$(PODS_ROOT)/Pods.xcodeproj"
 SYMROOT="$(PODS_ROOT)/Build"
-IPHONEOS_DEPLOYMENT_TARGET = 12.0
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
 
 bootstrap-cocoapods:
 	@bundle install
